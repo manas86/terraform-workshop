@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "scalingNodeInstanceRole",
+      "Effect": "Allow",
+      "Action": [
+        "sqs:receiveMessage",
+        "sqs:deleteMessage",
+        "sqs:getQueueUrl",
+        "dynamodb:PutItem",
+        "ec2:describeInstances"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}

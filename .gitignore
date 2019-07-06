@@ -1,0 +1,7 @@
+*.pem*
+*.tfvars
+*.tfstate*
+.terraform
+workshop/terraform.tfvars
+.idea
+*.iml
